@@ -1,7 +1,7 @@
 # resume
 
  - 杨景沣/男/1995 
- - 工作年限：2年多
+ - 工作年限：3年
  - 期望城市：深圳
  - 手机: 13428725296
  - Email：breezeWuna@gmail.com
@@ -10,11 +10,11 @@
 ---
 
 # 能做什么
-- 后端：在api缓存方面与sql的优化方面有所体会。能使Elasticseach，Resqe, ImageOptim等开源项目解决难题。
+- 后端：在api缓存方面与sql的优化方面有所体会。能使Elasticseach，Resque, ImageOptim等开源项目解决难题。
 
-- 服务器：了解并使用过阿里，腾讯，Ucloud等云服务。能用nginx的负载均衡来搭建服务器集群。能为项目引入探针实时监控程序，并分析程序找到瓶颈。
+- 服务器：了解并使用过阿里，腾讯，Ucloud等云服务。能用nginx的负载均衡来搭建服务器集群,通过Capistrano自动部署多台服务器。能为项目引入探针实时监控程序，并分析程序找到瓶颈。
 
-- 前端：能用ActiveAdmin快速搭建CMS项目，当ActiveAdmin不满足需求时，可以通过自已定制或者利用第三方包(simditor等)满足需求。掌握JQuery与Bootstrap，熟悉react。
+- 前端：能结合使用React,Bootstrap来搭建前端SPA项目，并使用nginx的gzip压缩配置，CDN配置等手段来优化性能。能用ActiveAdmin快速搭建CMS项目，当ActiveAdmin不满足需求时，可以通过自已定制或者利用第三方包(simditor等)满足需求。
 
 - 持续集成与自动化测试：能够使用 Jenkins + GitHub 搭建持续集体平台。有效结合Jenkins的特性完成后端的自动化测试(Rspec)，前端的自动化测试(Cucumber + Capybara)，代码检查(Rubocop), 自动化部署(Capistrano), 定时构建等。
 
@@ -22,6 +22,18 @@
 
 - Scrum敏捷实践：首先根据用户故事编写相应的测试用例，制定每两周为一期的迭代计划。在迭代过程中为保证质量有一个原则：ac能使用自动化测试保证的，一定要编写相应的自动化测试用例。为此我们引入了单元测试(rspec)，集成测试(rspec + cucumber)，多系统集成测试(cucumber + appium或webdriver + 初始化数据的接口)
 
+# 项目
+- Github：https://github.com/breeze-yang
+
+- Rubygem: https://rubygems.org/gems/carrierwave-ucloud <br>
+ https://github.com/breeze-yang/carrierwave-ucloud/
+
+- React项目地址: https://www.deshpro.com/
+
+- App项目：<br>
+1.PokerPro(下载地址：https://www.deshpro.com/download)<br>
+2.磨房(下载地址：http://www.doyouhike.net/appdownload/mofangapp)<br>
+3.微信服务号：磨房大型活动
 ---
 # 工作经历
 
@@ -37,7 +49,7 @@
 
 - 利用dns的解析的策略，nginx分发的策略搭建了中英文的api。
 
-- 为保证微信支付，微信退款的业务流程，引入了微信沙盒环境测试。
+- 集成微信登录，微信支付，微信退款的业务，引入了微信沙盒环境测试。
 
 - 为保证项目的质量，使用Jenkins + GitHub搭建了持续集成的平台
 
@@ -87,9 +99,9 @@
 ---
 # 技术栈
 
-- 语言：Ruby/PHP/Javascript/HTML/Css/Shell
+- 语言：Ruby/Elixir/PHP/Javascript/React/HTML/Css/Shell
 
-- 数据库：MySQL/Redis 
+- 数据库：MySQL/PostgreSQL/Redis/ 
 
 - 自动化部署与集成：Jenkins/Capistrano/Respec/Cucumber/ 
 
